@@ -1,3 +1,14 @@
+# Google drive location
+
+[Google Drive link](https://drive.google.com/drive/folders/1GMNtXnbo5VGMAIQtC1kwb20RkTeTmpIX?usp=sharing)
+
+# Store front urls
+
+[Preview](https://main--eds-demo--kavingas.aem.page)
+
+[Live](https://main--eds-demo--kavingas.aem.live/)
+
+
 # Edge Delivery Services + Adobe Commerce Boilerplate
 This project boilerplate is for Edge Delivery Services projects that integrate with Adobe Commerce.
 
