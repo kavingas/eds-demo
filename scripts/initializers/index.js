@@ -55,7 +55,7 @@ export default async function initializeDropins() {
     await import('./auth.js');
     import('./cart.js');
 
-    events.on('eds/lcp', async () => {
+    events.on('aem/ready', async () => {
       // Recaptcha
       await import('@dropins/tools/recaptcha.js').then(({ setConfig }) => {
         setConfig();
@@ -64,7 +64,7 @@ export default async function initializeDropins() {
   };
 
   // re-initialize on prerendering changes
-  document.addEventListener('prerenderingchange', initializeDropins);
+  document.addEventListener('prerenderingchange', () => init(true), { once: true });
 
   return init();
 }
